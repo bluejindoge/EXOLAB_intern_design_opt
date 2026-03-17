@@ -8,9 +8,11 @@
 ## Repository Structure
 
 ```
-human_robot_model/
-├── myobody.urdf      # OpenSim Myosuit 기반 인체 skeletal URDF 모델
-├── urdf_check.py     # URDF 파싱 및 관절/링크 정보 확인 스크립트
+human_robot_model_internship/
+├── myobody.urdf        # OpenSim 기반 인체 skeletal URDF 모델
+├── meshes/             # 골격 및 외골격 STL 메시 파일 (215개)
+├── urdf_check.py       # Isaac Gym 기반 URDF 시뮬레이션 및 시각화
+├── environment.yml     # Conda 환경 설정
 └── README.md
 ```
 
@@ -20,17 +22,40 @@ human_robot_model/
 
 ### Prerequisites
 
+- **GPU**: NVIDIA GPU with CUDA 11.7+ support
+- **Isaac Gym Preview 4**: Download from [NVIDIA Isaac Gym](https://developer.nvidia.com/isaac-gym) and install following their instructions
+- **Conda**: Miniconda or Anaconda
+
+### Environment Setup
+
 ```bash
-pip install yourdfpy numpy scipy
+# 1. Create conda environment
+conda env create -f environment.yml
+conda activate exolab
+
+# 2. Install Isaac Gym (from your Isaac Gym download directory)
+cd /path/to/IsaacGym_Preview_4_Package/python
+pip install -e .
 ```
 
-### URDF 모델 확인
+### URDF 모델 확인 및 시뮬레이션
 
 ```bash
 python urdf_check.py
 ```
 
-`urdf_check.py`를 실행하면 `myobody.urdf`의 관절 구조, 링크 질량/관성, 관절 축 정보 등을 확인할 수 있다.
+Isaac Gym 뷰어가 열리며 인체 골격 모델을 실시간으로 제어·관찰할 수 있다.
+
+#### 조작법
+
+| 키 | 동작 |
+|----|------|
+| LEFT / RIGHT | DOF 선택 |
+| UP / DOWN | 토크(torque mode) 또는 목표 위치(position mode) 조절 |
+| M | 토크 모드 ↔ 위치 모드 전환 |
+| R | 모든 DOF 초기화 |
+| C | 질량중심(COM) 마커 토글 |
+| Q | 종료 |
 
 ---
 

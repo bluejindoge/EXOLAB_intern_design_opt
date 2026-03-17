@@ -1,0 +1,9 @@
+name: exolab
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy>=1.23
+  - pip
+  - pip:
+    - torch>=2.0,<2.1
