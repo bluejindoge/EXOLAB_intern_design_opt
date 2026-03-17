@@ -9,8 +9,8 @@ from collections import deque
 import math
 from pathlib import Path
 
-URDF_ROOT = str(Path(__file__).parent / "robots/walkonsuit_human/urdf/")
-URDF_FILE = "walkonsuit_withHuman_widened_realisticSpine.urdf"
+URDF_ROOT = str(Path(__file__).parent)
+URDF_FILE = "myobody.urdf"
 
 SPAWN_HEIGHT = 1.4  # The bottom of the cylinder starts at ground level
 DISABLE_GRAVITY = False

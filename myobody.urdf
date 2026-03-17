@@ -45,7 +45,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/sacrum.stl" />
+        <mesh filename="meshes/sacrum.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -105,7 +105,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hat_lumbar.stl" />
+        <mesh filename="meshes/hat_lumbar.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -156,14 +156,14 @@
     <visual name="thoracic_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hat_thoracic.stl" />
+        <mesh filename="meshes/hat_thoracic.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
     <visual name="ribs_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hat_ribs_scap.stl" />
+        <mesh filename="meshes/hat_ribs_scap.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -189,7 +189,7 @@
     <visual>
       <origin xyz="0.02 -0.4 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hat_cervical.stl" />
+        <mesh filename="meshes/hat_cervical.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -220,14 +220,14 @@
     <visual name="jaw_visual">
       <origin xyz="0 -0.5 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hat_jaw.stl" />
+        <mesh filename="meshes/hat_jaw.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
     <visual name="skull_visual">
       <origin xyz="0 -0.5 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/hat_skull.stl" />
+        <mesh filename="meshes/hat_skull.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -303,7 +303,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/humerus_rv.stl" />
+        <mesh filename="meshes/humerus_rv.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -334,7 +334,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/ulna_rv.stl" />
+        <mesh filename="meshes/ulna_rv.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -365,7 +365,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/radius_rv.stl" />
+        <mesh filename="meshes/radius_rv.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -476,7 +476,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/humerus_lv.stl" />
+        <mesh filename="meshes/humerus_lv.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -507,7 +507,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/ulna_lv.stl" />
+        <mesh filename="meshes/ulna_lv.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -538,7 +538,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/radius_lv.stl" />
+        <mesh filename="meshes/radius_lv.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -613,14 +613,14 @@
     <visual name="r_pelvis_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_pelvis.stl" />
+        <mesh filename="meshes/r_pelvis.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
     <visual name="l_pelvis_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_pelvis.stl" />
+        <mesh filename="meshes/l_pelvis.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -658,7 +658,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_femur.stl" />
+        <mesh filename="meshes/r_femur.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -730,14 +730,14 @@
     <visual name="r_tibia_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_tibia.stl" />
+        <mesh filename="meshes/r_tibia.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
     <visual name="r_fibula_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_fibula.stl" />
+        <mesh filename="meshes/r_fibula.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -774,7 +774,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_patella.stl" />
+        <mesh filename="meshes/r_patella.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -796,7 +796,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_talus.stl" />
+        <mesh filename="meshes/r_talus.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -821,7 +821,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_foot.stl" />
+        <mesh filename="meshes/r_foot.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -852,7 +852,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/r_bofoot.stl" />
+        <mesh filename="meshes/r_bofoot.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -887,7 +887,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_femur.stl" />
+        <mesh filename="meshes/l_femur.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -959,14 +959,14 @@
     <visual name="l_tibia_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_tibia.stl" />
+        <mesh filename="meshes/l_tibia.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
     <visual name="l_fibula_visual">
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_fibula.stl" />
+        <mesh filename="meshes/l_fibula.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -1003,7 +1003,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_patella.stl" />
+        <mesh filename="meshes/l_patella.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -1025,7 +1025,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_talus.stl" />
+        <mesh filename="meshes/l_talus.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -1050,7 +1050,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_foot.stl" />
+        <mesh filename="meshes/l_foot.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
@@ -1081,7 +1081,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="../meshes/l_bofoot.stl" />
+        <mesh filename="meshes/l_bofoot.stl" />
       </geometry>
       <material name="bone_material" />
     </visual>
